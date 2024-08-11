@@ -1,0 +1,107 @@
+html body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.firstpagebg{
+    background-image:url(architecture-7947724_1280.jpg);
+    background-repeat:no-repeat; background-size:cover;
+    background-position:center; width:100%; height:100rem;}
+
+.firstpagebg ul{ margin-left:57%; margin-top:2rem; 
+    font-size:1.1rem; position:sticky; top:0; z-index:30;}
+.nav-link{color:rgb(255, 94, 0);}
+
+
+.content h3{font-size:1.9rem; margin-top:20rem; margin-left:7%; position:absolute;
+     font-size:2.5rem; font-family:fantasy; opacity:0; visibility: hidden;
+     color:rgb(252, 137, 70); animation-direction:normal; word-spacing:0.5rem; opacity:1;}
+
+.t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
+.t2{animation: t 1s 4s forwards ; animation-timing-function:linear;}
+.t3{animation: t 2s 5s forwards ; animation-timing-function:linear;}
+.t4{animation: t 2s 7s forwards ; animation-timing-function:linear;}
+.t5{animation: t 1s 9s forwards ; animation-timing-function:linear;}
+.t6{animation: t 2s 10s forwards ; animation-timing-function:linear;}
+.t7{animation: t 2s 12s forwards ; animation-timing-function:linear;}
+.t8{animation: t 1s 14s forwards ; animation-timing-function:linear;}
+.t9{animation: t 2s 15s forwards ; animation-timing-function:linear;}
+.t10{animation: t 2s 17s forwards ; animation-timing-function:linear;}
+.t11S{animation: t 1s 19s forwards ; animation-timing-function:linear;}
+
+.text.show {
+    visibility: visible;
+  }
+
+.logo{ width:30rem; position:absolute; 
+    margin-top:-6rem; margin-left:28%}
+
+.botpic{width:25rem; height:20rem; position:absolute; margin-left:5rem; margin-top:28rem;}
+.gearpic{width:20rem; height:20rem; z-index:10; position:absolute; margin-left:70rem; margin-top:78rem;}
+
+.c1{ position: absolute;
+    margin-top:20rem; margin-left:50%;
+    width:25rem; height:20rem; padding-left:0.5rem;
+     border-top-left-radius:0%;
+     border-top-right-radius:0%;
+     border-bottom-left-radius:0%;
+     border-bottom-right-radius:50%;
+background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152, 0.815));}
+
+.c2{ position: absolute;
+        margin-top:40rem; margin-left:70%;
+        width:25rem; height:20rem;
+    border-top-left-radius:50%;
+     border-top-right-radius:0%;
+     border-bottom-left-radius:0%;
+     border-bottom-right-radius:0%;
+    background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(226, 208, 105, 0.801));}
+
+.c3{ position: absolute;
+            margin-top:55rem; margin-left:6%;
+            width:25rem; height:20rem;
+    border-top-left-radius:0%;
+     border-top-right-radius:0%;
+     border-bottom-left-radius:0%;
+     border-bottom-right-radius:50%;
+        background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(104, 180, 199, 0.747));}
+        
+.c4{ position: absolute;
+            margin-top:70rem; margin-left:30%;
+            width:25rem; height:20rem;
+    border-top-left-radius:50%;
+     border-top-right-radius:0%;
+     border-bottom-left-radius:0%;
+     border-bottom-right-radius:0%;
+        background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(199, 139, 104, 0.747));}
+
+.card-title{ color:white; font-family:Georgia;
+    font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
+
+
+@keyframes t{
+    0% {
+        visibility:visible;
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+  }
+
+    
+
+ @media  only screen and (width <= 800px) { html{font-size:50%;} 
+ .logo{margin-top:-8rem; margin-left:3%;} 
+ .botpic{width:10.5rem; height:10.5rem; margin-top:40rem; margin-left:2%;}
+ .gearpic{width:9.5rem; height:10.5rem; margin-top:81rem; margin-left:73%;}
+ .c1{width:17rem; height:15rem; margin-top:25rem; margin-left:32%;} 
+ .c2{width:17rem; height:15rem; margin-top:38rem; margin-left:60%;} 
+ .c3{width:17rem; height:15rem;  margin-top:55rem; margin-left:2%;} 
+ .c4{width:17rem; height:15rem;  margin-top:68rem; margin-left:30%;}
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Alegreya'; font-size:3rem; word-spacing:0.2rem; margin-top:17rem;}
+ .firstpagebg{width:100%; overflow-x:hidden;}
+}
