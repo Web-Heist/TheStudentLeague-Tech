@@ -19,17 +19,17 @@ html body{
      font-size:2.5rem; font-family:fantasy; opacity:0; visibility: hidden;
      color:rgb(252, 137, 70); animation-direction:normal; word-spacing:0.5rem; opacity:1;}
 
-.t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
-.t2{animation: t 1s 4s forwards ; animation-timing-function:linear;}
-.t3{animation: t 2s 5s forwards ; animation-timing-function:linear;}
-.t4{animation: t 2s 7s forwards ; animation-timing-function:linear;}
-.t5{animation: t 1s 9s forwards ; animation-timing-function:linear;}
-.t6{animation: t 2s 10s forwards ; animation-timing-function:linear;}
-.t7{animation: t 2s 12s forwards ; animation-timing-function:linear;}
-.t8{animation: t 1s 14s forwards ; animation-timing-function:linear;}
-.t9{animation: t 2s 15s forwards ; animation-timing-function:linear;}
-.t10{animation: t 2s 17s forwards ; animation-timing-function:linear;}
-.t11S{animation: t 1s 19s forwards ; animation-timing-function:linear;}
+     .t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
+     .t2{animation: t 0.5s 4s forwards ; animation-timing-function:linear;}
+     .t3{animation: t 2s 4.5s forwards ; animation-timing-function:linear;}
+     .t4{animation: t 2s 6.5s forwards ; animation-timing-function:linear;}
+     .t5{animation: t 0.5s 8.5s forwards ; animation-timing-function:linear;}
+     .t6{animation: t 2s 9s forwards ; animation-timing-function:linear;}
+     .t7{animation: t 2s 11s forwards ; animation-timing-function:linear;}
+     .t8{animation: t 0.5s 13s forwards ; animation-timing-function:linear;}
+     .t9{animation: t 2s 13.5s forwards ; animation-timing-function:linear;}
+     .t10{animation: t 2s 15.5s forwards ; animation-timing-function:linear;}
+     .t11{animation: t 1s 17.5s forwards ; animation-timing-function:linear;}
 
 .text.show {
     visibility: visible;
@@ -96,12 +96,12 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
  @media  only screen and (width <= 800px) { html{font-size:50%;} 
  .logo{margin-top:-8rem; margin-left:3%;} 
- .botpic{width:10.5rem; height:10.5rem; margin-top:40rem; margin-left:2%;}
- .gearpic{width:9.5rem; height:10.5rem; margin-top:81rem; margin-left:73%;}
+ .botpic{width:13rem; height:12.5rem; margin-top:41rem; margin-left:2%;}
+ .gearpic{width:11rem; height:10.5rem; margin-top:81rem; margin-left:70%;}
  .c1{width:17rem; height:15rem; margin-top:25rem; margin-left:32%;} 
  .c2{width:17rem; height:15rem; margin-top:38rem; margin-left:60%;} 
  .c3{width:17rem; height:15rem;  margin-top:55rem; margin-left:2%;} 
  .c4{width:17rem; height:15rem;  margin-top:68rem; margin-left:30%;}
- html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Alegreya'; font-size:3rem; word-spacing:0.2rem; margin-top:17rem;}
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Black Ops One',Impact,Fantasy; font-size:3rem; word-spacing:0.2rem; margin-top:17rem;}
  .firstpagebg{width:100%; overflow-x:hidden;}
 }
