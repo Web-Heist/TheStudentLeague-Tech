@@ -92,9 +92,25 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
       }
   }
 
-    
+  @media  only screen and ( width = 1366px) { html{font-size:80%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 1280px) { html{font-size:70%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 1024px) { html{font-size:65%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 912px) { html{font-size:60%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 820px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 800px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 768px) { html{font-size:52%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 712px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;}
+}  
 
- @media  only screen and (width <= 800px) { html{font-size:50%;} 
+
+ @media  only screen and (width <= 700px) { html{font-size:50%;} 
  .logo{margin-top:-8rem; margin-left:3%;} 
  .botpic{width:13rem; height:12.5rem; margin-top:41rem; margin-left:2%;}
  .gearpic{width:11rem; height:10.5rem; margin-top:81rem; margin-left:70%;}
