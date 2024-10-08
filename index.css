@@ -79,7 +79,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
 .card-title{ color:white; font-family:Georgia;
     font-size:1.4rem; background-color:rgba(43, 40, 40, 0.377);}
-.card-text{ color:rgb(233, 230, 230); margin-top:2rem;}
+.card-text{ color:rgb(233, 230, 230); margin-top:2rem; font-size:1.2rem;}
 
 
 @keyframes t{
@@ -111,7 +111,7 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
 
 
  @media  only screen and (width <= 700px) { html{font-size:50%;} 
- .logo{margin-top:-8rem; margin-left:3%;} 
+ .logo{margin-top:-8rem; margin-left:3%;} .card-text{font-size:0.8rem; margin-top:1rem;}
  .botpic{width:13rem; height:12.5rem; margin-top:41rem; margin-left:2%;}
  .gearpic{width:11rem; height:10.5rem; margin-top:81rem; margin-left:70%;}
  .c1{width:17rem; height:15rem; margin-top:25rem; margin-left:32%;} 
